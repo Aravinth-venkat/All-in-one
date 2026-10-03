@@ -1,30 +1,38 @@
-# Career Lab Web Prototype v1
+# Career Lab — All 5 Versions
 
-A responsive front-end prototype for the Career Lab product concept.
+This bundle contains the complete planned Career Lab product evolution in one package.
 
-## Included flows
-- Home dashboard and readiness
-- Learning Hub with personalized skill cards
-- AI Interview Coach prototype
-- Resume + Job Description workspace
-- Resume ↔ JD gap analysis UI
-- Code Lab with ServiceNow/JavaScript practice
-- Interview rescue / hint / answer-improvement flows
-- Profile, XP, streak and skill progress
-- Mobile responsive navigation
+## Version 1 — Website UX & Design
+Current working front-end prototype for validating the product flow and responsive UI.
+
+Includes Home, Learning, Interview Coach, Resume/JD workspace, Resume↔JD UI, Code Lab, ServiceNow practice, Interview Rescue, Profile and progress UI.
+
+## Version 2 — Website Functionality
+Implementation specification for turning the prototype into a functional web application.
+
+Planned: PDF/DOC/DOCX parsing, JD parsing, skill extraction, resume/JD matching, question engine, answer evaluation interface, coding execution architecture, speech-to-text integration, persistence and progress tracking.
+
+See `V2_Web_Functionality/IMPLEMENTATION_PLAN.md`.
+
+## Version 3 — Backend + LLM
+Architecture specification for secure AI features.
+
+Planned: authenticated API, database, resume/JD processing, structured LLM evaluation, adaptive interviews, hints, answer upgrades, follow-ups, interview rescue and personalized skill-gap generation.
+
+See `V3_Backend_LLM/ARCHITECTURE.md`.
+
+## Version 4 — Production Website + GitHub
+Production checklist and repository architecture.
+
+Planned: frontend/backend separation, secure secrets, file validation, HTTPS, authentication, rate limiting, logging, privacy/data deletion, testing, deployment and GitHub workflow.
+
+See `V4_Production_GitHub/PRODUCTION_PLAN.md`.
+
+## Version 5 — Android / Godot
+Current fixed Godot 4 prototype carried forward from the previous work.
+
+The Android version should be rebuilt from the validated web product architecture rather than continuing to patch screens blindly.
 
 ## Important
-This is a front-end prototype. Resume parsing, document storage, LLM evaluation, speech recognition, code execution, authentication, and secure backend APIs are represented by UI/mock interactions only. They should be implemented with a secure backend before production.
 
-## Run locally
-Open `index.html` in a browser, or serve the folder with any static web server.
-
-## Next phase
-1. Review and revise UI/UX.
-2. Add real backend/API contracts.
-3. Add authenticated resume/JD processing.
-4. Add LLM evaluation with structured grading and guardrails.
-5. Add sandboxed code execution.
-6. Add speech-to-text.
-7. Connect to GitHub and deploy the website.
-8. Reuse the finalized web architecture when rebuilding the Godot/Android app.
+V1 and V5 contain working prototype code. V2–V4 are engineering specifications/roadmaps in this bundle; they are not being represented as fully implemented production systems yet.
