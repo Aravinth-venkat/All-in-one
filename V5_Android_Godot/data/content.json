@@ -1,0 +1,76 @@
+{
+  "app": "ServiceNow Career Lab",
+  "design": "Learn \u2192 Play \u2192 Explain \u2192 Interview \u2192 Level Up",
+  "courses": [
+    {
+      "id": "fundamentals",
+      "title": "ServiceNow Fundamentals",
+      "subtitle": "Platform, tables, records, forms",
+      "level": "STARTER"
+    },
+    {
+      "id": "itsm",
+      "title": "ITSM Mastery",
+      "subtitle": "Incident, Problem, Change, Request, Knowledge",
+      "level": "CORE"
+    },
+    {
+      "id": "scripting",
+      "title": "Scripting Arena",
+      "subtitle": "GlideRecord, Business Rules, Script Includes, Client Scripts",
+      "level": "BUILD"
+    },
+    {
+      "id": "flow",
+      "title": "Flow Designer",
+      "subtitle": "Triggers, actions, conditions, approvals",
+      "level": "BUILD"
+    },
+    {
+      "id": "cmdb",
+      "title": "CMDB & Architecture",
+      "subtitle": "CI classes, relationships, identification and reconciliation",
+      "level": "ADVANCED"
+    },
+    {
+      "id": "integration",
+      "title": "REST Integrations",
+      "subtitle": "Authentication, APIs, errors, retries, logging",
+      "level": "ADVANCED"
+    },
+    {
+      "id": "career",
+      "title": "Release & Major Incident",
+      "subtitle": "Operational scenarios and decision making",
+      "level": "CAREER"
+    }
+  ],
+  "puzzles": [
+    {
+      "title": "P1 Commander",
+      "type": "Scenario",
+      "xp": 80
+    },
+    {
+      "title": "Script Detective",
+      "type": "Debugging",
+      "xp": 100
+    },
+    {
+      "title": "Flow Architect",
+      "type": "Logic",
+      "xp": 70
+    },
+    {
+      "title": "API Rescue",
+      "type": "Architecture",
+      "xp": 120
+    },
+    {
+      "title": "CMDB Match",
+      "type": "Data Model",
+      "xp": 90
+    }
+  ],
+  "content_policy": "All starter educational explanations and questions are independently authored. Do not reproduce proprietary documentation, screenshots, training material or third-party question banks."
+}
